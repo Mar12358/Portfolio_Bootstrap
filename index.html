@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="container">
     <section id="welcome">
       <div>
-        <header class="container navbar navbar-light bg-light">
+        <header class="navbar navbar-light bg-light">
           
           <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
             <a class="navbar-brand" href="#">My Logo</a>
@@ -39,7 +39,7 @@
               </ul>
           </nav>-->
         </header>
-        <div class="container">
+        <div class="">
           <h1 id="home_salute" class="display-2 lead">I'm Martin.</br> Glad to see you!</h1>
             <p class="">
               I’m a software developer! I can help you build a product , feature
@@ -68,7 +68,7 @@
         </div>
       </div>
     </section>
-    <div id="work" class="container">
+    <div id="work" >
       <section class="my-5" id="tonic1">
         <div class="card flex-row">
           
@@ -171,10 +171,10 @@
         </div>
       </section>
     </div>
-    <section id="about" class="d-flex container">
-      <div class="content content_about_self">
-        <h2 class="display-2 lead">About Myself</h2>
-        <p id="about_description" class="description">
+    <section id="about" class="row">
+      <div class="col">
+        <h2 class="display-4 lead">About Myself</h2>
+        <p id="about_description">
           Hello I’m a software developer! I can help you build a product ,
           feature or website. Look through some of my work and experience! If
           you like what you see and have a project you need coded, don’t
@@ -200,7 +200,7 @@
         </ul>
         <a class="btn btn-primary" href="#">Get my resume</a>
       </div>
-      <div class="content content_about_self">
+      <div class="col">
         <ul class="list-unstyled">
           <li class="d-flex justify-content-between">
             <p class="h4">Languages</p>
@@ -233,15 +233,15 @@
         </ul>
       </div>
     </section>
-    <section class="container">
+    <section >
       
         <div class="form_header">
-          <h2>Contact me</h2>
-          <p>
+          <h2 class="text-center">Contact me</h2>
+          <p class="text-center">
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!</p>
         </div>
-          <form action="https://formspree.io/f/moqzkark" method="post">
-            <ul id="form_ul">
+          <form class="d-flex justify-content-center" action="https://formspree.io/f/moqzkark" method="post">
+            <ul class="list-unstyled">
               <li>
                 <input
                   type="text"
